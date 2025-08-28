@@ -35,7 +35,6 @@ int main() {
 
     promedio = (float)suma / n;
 
-    // Mostrar resultados
     printf("\n    -  Suma: %d", suma);
     printf("\n    -  Promedio: %.2f", promedio);
     printf("\n    -  Minimo: %d (indice %d)", min, idx_min);
