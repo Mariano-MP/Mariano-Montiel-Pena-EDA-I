@@ -9,7 +9,7 @@ int main(void) {
     printf("4) *++p = %d\n", *++p);        // primero avanza p a a[2] ya que estaba en a[1], luego imprime -> 6
     printf("5) p[1] = %d\n", p[1]);        // p está en a[2], así que p[1] es a[3] -> 8
     printf("6) *(p+=2) = %d\n", *(p+=2));  // mueve p dos posiciones más (ahora apunta a a[4]) -> imprime 10
-    printf("7) p - a = %ld\n", p - a);     // resta direcciones -> cuántos pasos se movió p desde a[0], aquí 4
+    printf("7) p - a = %d\n", p - a);     // resta direcciones -> cuántos pasos se movió p desde a[0], aquí 4
 
     return 0;
 }
